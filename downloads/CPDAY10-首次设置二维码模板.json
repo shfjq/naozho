@@ -1,0 +1,6 @@
+{
+  "android.app.extra.PROVISIONING_DEVICE_ADMIN_COMPONENT_NAME": "com.naozho.clock/com.naozho.clock.display.ClockDeviceAdmin",
+  "android.app.extra.PROVISIONING_DEVICE_ADMIN_SIGNATURE_CHECKSUM": "gBvJ3V6hFEN3-ORSDhu4v2lQ6ejSJzO7oEZQdt8clXg=",
+  "android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_DOWNLOAD_LOCATION": "https://pending-configuration.example.invalid/naozho-0.5.5-device-owner.apk",
+  "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED": true
+}
