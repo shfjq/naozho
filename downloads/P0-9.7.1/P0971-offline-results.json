@@ -1,0 +1,40 @@
+{
+  "source_commit": "5db8441516cea6cbf4c3d29ea3b1b1a96af5f2e6",
+  "release": "naozho_power_daily 1.0.1 / 2",
+  "physical_device_tested_this_round": false,
+  "static_firmware_checks": [
+    "PASS firmware SingleKeyGestureDetector.<clinit>",
+    "PASS firmware SingleKeyGestureDetector.interceptKeyDown",
+    "PASS firmware SingleKeyGestureDetector.interceptKeyUp",
+    "PASS firmware SingleKeyGestureDetector$KeyHandler.handleMessage",
+    "PASS firmware PhoneWindowManager$PowerKeyRule.onMultiPress",
+    "PASS firmware PhoneWindowManager.powerPress",
+    "PASS firmware PhoneWindowManager.interceptPowerKeyDown"
+  ],
+  "firmware_sha256": "70fa04e1e51c4008078cdc7fd6c1cc041769e39bd3cce99712ce1d374d81f468",
+  "tests_executed": "production native, JVM, original APK paths in Robolectric SDK35, Python acceptance tool",
+  "not_measured": [
+    "runtime CPDAY10 system policy threshold",
+    "physical single sleep and wake latency",
+    "natural gesture success and touch",
+    "CPDAY10 battery impact"
+  ],
+  "scores": {
+    "linux_native": 14,
+    "daily_jvm": 190,
+    "dsh_python": 10,
+    "delivery_jvm": 26,
+    "gesture_jvm": 23,
+    "ConfirmedPowerReturnTest": 13,
+    "PowerReturnActivityTest": 4
+  },
+  "passed": 280,
+  "host_only_sample": [
+    "10000 pipe edges: fd delta 0; Linux maxrss delta 0 KiB",
+    "blocking 250ms, Linux calling thread CPU 0.025 ms"
+  ],
+  "retained_apk": "0.6.13-dev / 28",
+  "retained_apk_sha256": "8bcf50a524f58b6c8180d699f47a18fd096d94b7b12d737d1a60710d189597d4",
+  "module_elf": "arm64, 16KiB-aligned LOAD, RELRO, non-executable stack",
+  "app_changed": false
+}
