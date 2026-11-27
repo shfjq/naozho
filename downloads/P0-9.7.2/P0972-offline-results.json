@@ -1,0 +1,52 @@
+{
+  "source_commit": "b0bee7cc15cdca3cafe12c87b2f445b1a04bc3fe",
+  "release": "naozho_power_daily 1.0.2 / 3",
+  "physical_device_tested_this_round": false,
+  "firmware_sha256": "70fa04e1e51c4008078cdc7fd6c1cc041769e39bd3cce99712ce1d374d81f468",
+  "firmware_checked": "WindowState.dump (classes3.dex 00a2/00a9, 0337/0357/0362, 065a/0675); WindowManagerService.dumpWindowsLocked footer 015f",
+  "baseline_source_zip_sha256": "8622c9077e5bdc5e9d6eb274cba3e05df805a7aa0d2c0e821d5f660817c7cb40",
+  "comparison_on_same_reconstructed_input": [
+    "old decision=additional_visible_window",
+    "class=unclassified",
+    "class=unclassified",
+    "class=unknown",
+    "class=unknown",
+    "class=app",
+    "class=wallpaper",
+    "",
+    "new decision=null",
+    "class=decor",
+    "class=decor",
+    "class=decor",
+    "class=decor",
+    "class=app",
+    "class=wallpaper",
+    ""
+  ],
+  "fixture_scope": "Transcribed DSH six-window evidence. Flag encodings, frames and tokens supplied by format tests. Original public flag lines for the two bars unavailable.",
+  "tests_executed": "production native, parser and filtered collector, JVM handoff and delivery, application Robolectric SDK35, Python DSH tool",
+  "not_measured": [
+    "actual CPDAY10 bar mask representation",
+    "device classification after upgrade",
+    "physical double press, delivered request, focus, LOCKED + 80 and touch"
+  ],
+  "scores": {
+    "linux_native": 14,
+    "daily_jvm": 190,
+    "dsh_python": 12,
+    "freeme_jvm": 53,
+    "delivery_jvm": 26,
+    "gesture_jvm": 23,
+    "ConfirmedPowerReturnTest": 13,
+    "PowerReturnActivityTest": 4
+  },
+  "passed": 335,
+  "host_only_sample": [
+    "10000 pipe edges: fd delta 0; Linux maxrss delta 0 KiB",
+    "blocking 250ms, Linux calling thread CPU 0.016 ms"
+  ],
+  "retained_apk": "0.6.13-dev / 28",
+  "retained_apk_sha256": "8bcf50a524f58b6c8180d699f47a18fd096d94b7b12d737d1a60710d189597d4",
+  "module_elf": "arm64, 16KiB-aligned LOAD, RELRO, non-executable stack",
+  "app_changed": false
+}
