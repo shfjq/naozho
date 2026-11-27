@@ -1,0 +1,43 @@
+{
+  "source_commit": "0fb030a7d8988fc35d613fe7079e53ef460fefc2",
+  "release": "naozho_power_daily 1.0.3 / 4",
+  "physical_device_tested_this_round": false,
+  "firmware_sha256": "70fa04e1e51c4008078cdc7fd6c1cc041769e39bd3cce99712ce1d374d81f468",
+  "firmware_checked": "WindowState.dump (classes3.dex 00a2/00a9, 0337/0357/0362, 065a/0675); WindowManagerService.dumpWindowsLocked footer 015f",
+  "baseline_source_zip_sha256": "ee52ffbba1ec9207f230750eb9c59c14f659c7513feedb9dba5e44125356acb5",
+  "comparison_on_same_reconstructed_input": [
+    "emit-excerpts legacy host collector recovered both reported public bar lines",
+    "emit-excerpts old missing_flags missing_flags missing_flags missing_flags missing_flags missing_flags => window_metadata_unknown  visible_window_count=6 decorative_window_count=0 interactive_window_count=1 blocking_window_count=6 unknown_window_count=6 omitted_rows=0",
+    "emit-excerpts new missing_flags missing_flags parsed parsed parsed missing_flags => window_metadata_unknown  visible_window_count=6 decorative_window_count=2 interactive_window_count=1 blocking_window_count=3 unknown_window_count=3 omitted_rows=0",
+    "emit-completed legacy host collector recovered both reported public bar lines",
+    "emit-completed old missing_flags missing_flags missing_flags missing_flags missing_flags parsed => window_metadata_unknown  visible_window_count=6 decorative_window_count=0 interactive_window_count=1 blocking_window_count=5 unknown_window_count=5 omitted_rows=0",
+    "emit-completed new parsed parsed parsed parsed parsed parsed => null  visible_window_count=6 decorative_window_count=4 interactive_window_count=1 blocking_window_count=0 unknown_window_count=0 omitted_rows=0"
+  ],
+  "fixture_scope": "Six user-supplied CPDAY10 mAttrs lines plus verbatim public fl lines for the two bars and Freeme. Three fl lines were not supplied. Frames and tokens are test scaffolding. Only emit-completed supplies synthetic flags for those three windows.",
+  "tests_executed": "production native, visible-window collector/projection and public field decoder, JVM handoff and delivery, application Robolectric SDK35, Python DSH tool",
+  "not_measured": [
+    "full physical snapshot from the second-stage ZIP not available in this workspace",
+    "device classification after upgrade",
+    "physical double press, delivered request, focus, LOCKED + 80 and touch"
+  ],
+  "scores": {
+    "linux_native": 14,
+    "daily_jvm": 190,
+    "dsh_python": 14,
+    "freeme_jvm": 53,
+    "layout_fields_jvm": 48,
+    "delivery_jvm": 26,
+    "gesture_jvm": 23,
+    "ConfirmedPowerReturnTest": 13,
+    "PowerReturnActivityTest": 4
+  },
+  "passed": 385,
+  "host_only_sample": [
+    "10000 pipe edges: fd delta 0; Linux maxrss delta 0 KiB",
+    "blocking 250ms, Linux calling thread CPU 0.039 ms"
+  ],
+  "retained_apk": "0.6.13-dev / 28",
+  "retained_apk_sha256": "8bcf50a524f58b6c8180d699f47a18fd096d94b7b12d737d1a60710d189597d4",
+  "module_elf": "arm64, 16KiB-aligned LOAD, RELRO, non-executable stack",
+  "app_changed": false
+}
