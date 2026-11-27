@@ -14,7 +14,7 @@ Get-Content .\CONTENTS-SHA256.txt | ForEach-Object {
 py -3 .\cpday10_daily.py --help
 ```
 
-如需要完成真实输入回归，只须私下提供此前保存的 316 行原文件。Codex 可直接在开发机重放，不需要 DSH 编程或重新连接手机。完整 dump 可能含窗口标题和应用信息，请留在私下交付位置。
+Codex 已用两份原始文件完成离线回放。审查时可直接核对报告及 P0974-offline-results.json。此次发布的模块与上一固定提交的 1.0.4 ZIP 字节相同；仅电脑端回归工具和材料更新。现阶段无需 DSH 补采。
 
 ## 仅在后续部署获批后执行
 
