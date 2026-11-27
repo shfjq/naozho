@@ -1,0 +1,23 @@
+{
+  "source_commit": "4636d5b4c0dee650dfd41042ffff803fb8e3d320",
+  "release": "naozho_power_daily 1.0.0 / 1",
+  "physical_device_tested_this_round": false,
+  "scores": {
+    "linux_native": 14,
+    "daily_jvm": 81,
+    "dsh_python": 8,
+    "delivery_jvm": 26,
+    "gesture_jvm": 23,
+    "ConfirmedPowerReturnTest": 12,
+    "PowerReturnActivityTest": 4
+  },
+  "passed": 168,
+  "host_only_sample": [
+    "10000 pipe edges: fd delta 0; Linux maxrss delta 0 KiB",
+    "blocking 250ms, Linux calling thread CPU 0.028 ms"
+  ],
+  "retained_apk": "0.6.13-dev / 28",
+  "retained_apk_sha256": "8bcf50a524f58b6c8180d699f47a18fd096d94b7b12d737d1a60710d189597d4",
+  "module_elf": "arm64, 16KiB-aligned LOAD, RELRO, non-executable stack",
+  "app_changed": false
+}
