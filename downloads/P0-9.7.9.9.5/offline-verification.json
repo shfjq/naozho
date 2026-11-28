@@ -1,0 +1,53 @@
+{
+  "apk": [
+    {
+      "file": "naozho-0.6.25-dev.apk",
+      "bytes": 11754316,
+      "sha256": "bcab20d4f9cf0253de748cf0a5eb8ba072556e6e1e20d7ea2a2ff1cea975b6ae",
+      "package": "package: name='com.naozho.clock' versionCode='40' versionName='0.6.25-dev' platformBuildVersionName='15' platformBuildVersionCode='35' compileSdkVersion='35' compileSdkVersionCodename='15'",
+      "signer_sha256": "801bc9dd5ea1144377f8e4520e1bb8bf6950e9e8d22733bba0465076df1c9578",
+      "v2": true,
+      "permissions": [
+        "uses-permission: name='android.permission.INTERNET'",
+        "uses-permission: name='android.permission.ACCESS_NETWORK_STATE'",
+        "uses-permission: name='android.permission.USE_BIOMETRIC'",
+        "uses-permission: name='android.permission.ACCESS_COARSE_LOCATION'",
+        "uses-permission: name='android.permission.SCHEDULE_EXACT_ALARM'",
+        "uses-permission: name='android.permission.POST_NOTIFICATIONS'",
+        "uses-permission: name='android.permission.USE_FULL_SCREEN_INTENT'",
+        "uses-permission: name='android.permission.RECEIVE_BOOT_COMPLETED'",
+        "uses-permission: name='android.permission.FOREGROUND_SERVICE'",
+        "uses-permission: name='android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK'",
+        "uses-permission: name='android.permission.WAKE_LOCK'",
+        "uses-permission: name='android.permission.ACCESS_NOTIFICATION_POLICY'",
+        "uses-permission: name='com.naozho.clock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'"
+      ]
+    },
+    {
+      "file": "naozho-0.6.24-dev.apk",
+      "bytes": 11599345,
+      "sha256": "8ee97d2d36c5e3eea2959f61c211d52b4a46473f1eeaf8e7e397ccc475c2346f",
+      "package": "package: name='com.naozho.clock' versionCode='39' versionName='0.6.24-dev' platformBuildVersionName='15' platformBuildVersionCode='35' compileSdkVersion='35' compileSdkVersionCodename='15'",
+      "signer_sha256": "801bc9dd5ea1144377f8e4520e1bb8bf6950e9e8d22733bba0465076df1c9578",
+      "v2": true,
+      "permissions": [
+        "uses-permission: name='android.permission.INTERNET'",
+        "uses-permission: name='android.permission.ACCESS_NETWORK_STATE'",
+        "uses-permission: name='android.permission.USE_BIOMETRIC'",
+        "uses-permission: name='android.permission.ACCESS_COARSE_LOCATION'",
+        "uses-permission: name='android.permission.SCHEDULE_EXACT_ALARM'",
+        "uses-permission: name='android.permission.POST_NOTIFICATIONS'",
+        "uses-permission: name='android.permission.USE_FULL_SCREEN_INTENT'",
+        "uses-permission: name='android.permission.RECEIVE_BOOT_COMPLETED'",
+        "uses-permission: name='android.permission.FOREGROUND_SERVICE'",
+        "uses-permission: name='android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK'",
+        "uses-permission: name='android.permission.WAKE_LOCK'",
+        "uses-permission: name='android.permission.ACCESS_NOTIFICATION_POLICY'",
+        "uses-permission: name='com.naozho.clock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'"
+      ]
+    }
+  ],
+  "permission_set_unchanged": true,
+  "weather_sh_sha256": "06421a91ee35172c4a2a18896e1af9d69622bf4cec5808959f8a5e8b674890bf",
+  "device_tests": "not_run"
+}
