@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>普通浏览器触摸验收</title>
+<style>
+html,body,button{margin:0;width:100%;height:100%}
+button{display:grid;place-content:center;gap:.5em;color:#0b2e17;background:#b2eabb;border:0;font:600 clamp(20px,5vw,48px) system-ui}
+small{font-weight:400;font-size:.65em}
+</style>
+<button type="button" id="pad"><span>页面收到的点击数</span><output id="count">0</output><small id="load"></small></button>
+<script>
+const load = crypto.getRandomValues(new Uint32Array(2));
+document.getElementById('load').textContent = '页面实例 ' + Array.from(load, x => x.toString(16).padStart(8,'0')).join('-');
+let taps = 0;
+document.getElementById('pad').addEventListener('click', () => {
+  document.getElementById('count').textContent = String(++taps);
+});
+</script>
+</html>
